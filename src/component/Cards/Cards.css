@@ -1,0 +1,18 @@
+.cards {
+	margin-top: 1rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: space-between;
+	gap: 1rem;
+}
+@media only screen and (max-width: 1000px) {
+	.cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+}

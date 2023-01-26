@@ -1,0 +1,36 @@
+.quistions {
+	text-align: center;
+	margin-top: 4rem;
+	padding-bottom: 2rem;
+}
+
+.quistions h2 {
+	color: rgb(41, 103, 145);
+}
+
+.quistions-container {
+	margin-top: 1rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.quistions-container .quistion {
+	/* width: 25%; */
+	background: white;
+	margin: 1rem;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 700px) {
+	.quistions-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media only screen and (max-width: 500px) {
+	.quistions-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

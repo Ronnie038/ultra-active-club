@@ -1,0 +1,39 @@
+.card {
+	background: white;
+	border-radius: 5px;
+	padding: 1rem;
+	/* max-width: 250px; */
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.margin {
+	margin-top: 5px;
+}
+/* .img-container {
+
+} */
+
+img {
+	height: 250px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+button {
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: #5050af;
+	color: white;
+	cursor: pointer;
+
+	transition: all 0.3s ease-in;
+}
+button:hover {
+	background-color: orange;
+}
+.bold {
+	font-weight: bold;
+}

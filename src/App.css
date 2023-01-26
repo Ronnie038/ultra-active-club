@@ -1,0 +1,22 @@
+.App {
+	/* text-align: center; */
+	/* background-color: rgb(129, 129, 160); */
+	padding-left: 2rem;
+}
+.cards-section {
+	margin-top: 2rem;
+}
+
+.App h1 {
+	margin-top: 2rem;
+}
+
+.flex {
+	display: flex;
+}
+
+@media only screen and (max-width: 750px) {
+	.flex {
+		flex-direction: column-reverse;
+	}
+}

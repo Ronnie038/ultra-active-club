@@ -1,0 +1,99 @@
+.profile {
+	margin-left: 1rem;
+	background-color: rgb(255, 255, 255);
+	min-width: 250px;
+	padding: 1rem;
+	border-radius: 5px;
+	max-height: 600px;
+	position: sticky;
+	right: 0;
+	top: 0;
+}
+
+.profile-img {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.profile-img img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.profile-img span {
+	font-weight: bold;
+}
+
+.details {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(58, 255, 255, 0.384);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.details p {
+	font-weight: bold;
+}
+
+.details span {
+	color: rgba(97, 97, 97, 0.603);
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.break-container {
+	margin-top: 1rem;
+}
+
+.break-container .breaks div {
+	background-color: white;
+	border-radius: 50%;
+	padding: 5px;
+	margin: 2px;
+	cursor: pointer;
+}
+.break-container .breaks div:hover {
+	background-color: blue;
+	color: white;
+	font-weight: 400;
+}
+
+.break-container .breaks {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(58, 255, 255, 0.384);
+
+	padding: 1rem;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.exircise-details-container {
+	margin-top: 2rem;
+}
+
+.exircise-details-container p {
+	padding: 1rem;
+	background-color: rgba(58, 255, 255, 0.384);
+	border-radius: 5px;
+	font-weight: bold;
+
+	margin-top: 1rem;
+}
+
+.exircise-details-container p > span {
+	color: gray;
+	margin-left: 5px;
+}
+
+.completed-btn {
+	margin-top: 3rem;
+}
+
+@media only screen and (max-width: 750px) {
+	.profile {
+		position: relative;
+	}
+}
